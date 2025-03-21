@@ -1,7 +1,7 @@
 
 # description -------------------------------------------------------------
 
-# This script contains the functions used in the simulation study. 
+# This script contains the functions used in the simulation study.
 # The functions are self-explanatory and are used in the main script.
 
 # Covariate deterministic function ----------------------------------------
@@ -35,7 +35,7 @@ inv_scale <- function(x, xmin, xmax, xmin_new, xmax_new) {
 # edge_len_n: # of edge length of mesh from the boundary to create hexagon mesh using x_bin
 # S2 not supported
 hexagon_lattice <- function(bnd = bnd,
-                            x_bin = 250, # 300 then running forever
+                            x_bin = 250,
                             edge_len_n = 1) {
   stopifnot(x_bin / 2 > edge_len_n)
   crs <- fm_crs(bnd)
@@ -192,7 +192,7 @@ dse_score <- function(object,
 # A function to make a symmetric matrix for the Q matrix from the INLA model
 make_sym <- function(Q) {
   d <- diag(Q)
-  Q <- (Q + t(Q)) 
+  Q <- (Q + t(Q))
   diag(Q) <- d
   return(Q)
 }
