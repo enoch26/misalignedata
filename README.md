@@ -3,7 +3,9 @@
 This repository contains the code to reproduce the simulation study in the paper "Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data". 
 
 ## Abstract
+Spatial misalignment problems arise from both data aggregation and attempts to align misaligned data, leading to information loss. We propose a Bayesian disaggregation framework that links misaligned data to a continuous domain model using an iteratively linearised integration method via integrated nested Laplace approximation (INLA). The framework supports point pattern and aggregated count models under four covariate field scenarios: \textit{Raster at Full Resolution (RastFull), Raster Aggregation (RastAgg), Polygon Aggregation (PolyAgg), and Point Values (PointVal)}. The first three involve aggregation, while the latter two have incomplete fields. For PolyAgg and PointVal, we estimate the full covariate field using \textit{Value Plugin, Joint Uncertainty, and Uncertainty Plugin} methods, with the latter two accounting for uncertainty propagation. These methods demonstrate superior performance, and remain more robust even under model misspecification (i.e. modelling a nonlinear field as linear).
 
+In landslide studies, landslide occurrences are often aggregated into counts based on slope units, reducing spatial detail. The results indicate that point pattern observations and full-resolution covariate fields should be prioritized. For incomplete fields, methods incorporating uncertainty propagation are preferred. This framework supports landslide susceptibility and other spatial mapping, integrating seamlessly with INLA-extension packages.
 
 ## Code
 The code to perform the simulation in the paper consists of two main files, to be executed in the following order in R:
