@@ -1,6 +1,6 @@
 # misalignedata
 
-This repository contains the code to reproduce the simulation study in the paper "Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data". 
+This repository contains the code to reproduce the simulation study in the paper "Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data". 
 
 ## Abstract
 
@@ -20,3 +20,17 @@ The code to perform the simulation in the paper consists of two main files, to b
 5. `juvpup.R`: This file fits the Joint Uncertainty (JU), Value Plugin (VP) and Uncertainty Plugin (UP) models.
 6. `juvpup_nl.R`: This file fits the JU, VP and UP models with non-linear misspecification (NL).
 7. `function.R`: This file contains the helper functions used in the paper.
+
+## Citation
+For attribution, please cite this work as:
+Suen, M. H., Naylor, M., & Lindgren, F. (2025). Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data. arXiv preprint arXiv:2502.10584.
+
+BibTeX citation:
+```
+@article{suen2025coherent,
+  title={Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data},
+  author={Suen, Man Ho and Naylor, Mark and Lindgren, Finn},
+  journal={arXiv preprint arXiv:2502.10584},
+  year={2025}
+}
+```
