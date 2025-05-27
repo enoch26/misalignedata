@@ -25,7 +25,7 @@ The code to perform the simulation in the paper consists of two main files, to b
 
 ## Citation
 For attribution, please cite this work as:
-Suen, M. H., Naylor, M., & Lindgren, F. (2025). Cohering Disaggregation and Uncertainty Quantification for Spatially Misaligned Data. arXiv preprint arXiv:2502.10584.
+Suen, M. H., Naylor, M., & Lindgren, F. (2025). Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data. arXiv preprint arXiv:2502.10584.
 
 BibTeX citation:
 ```
